@@ -64,7 +64,7 @@ After you pull the code from a configured master.
 
 ### With ESlint
 
-1. run
+1. To see the problems with current code style, run
 
 ```
 npx eslint yourfile1.tsx
@@ -74,9 +74,7 @@ or
 eslint yourfile1.tsx
 ```
 
-to see the problems with current code style.
-
-2. run
+2. To automatically fix the code style, run
 
 ```
 npx eslint yourfile.tsx --fix
@@ -88,23 +86,17 @@ or
 eslint yourfile.tsx --fix
 ``` 
 
-to automatically fix the code style.
-
-3. run
+3. To check code style for all files, run
 
 ```
 npm run lint
 ```
 
-to check code style for all files.
-
-4. run
+4. To fix the code style for all files, run
 
 ```
 npm run lint -- --fix
 ```
-
-to fix the code style for all files
 
 ### With Prettier Hook 
 
