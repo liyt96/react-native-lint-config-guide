@@ -20,11 +20,25 @@ Install the ESlint CLI
 
 Install with
 
-`npm install --save-dev prettier tslint-config-prettier`
+`npm install --save-dev prettier eslint-config-prettier`
 
 Hookup with a pre-commit automatic format
 
-`npx mrm lint-staged`
+`yarn add pretty-quick husky --dev`
+
+add 
+
+```
+{
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
+```
+
+to `package.json`.
 
 ## Start with configured master
 
