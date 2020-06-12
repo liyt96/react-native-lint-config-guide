@@ -22,6 +22,8 @@ Install with
 
 `npm install --save-dev prettier eslint-config-prettier`
 
+Add `eslint-config-prettier` to `extends` in `.eslintrc.yml`.
+
 Hookup with a pre-commit automatic format
 
 `yarn add pretty-quick husky --dev`
