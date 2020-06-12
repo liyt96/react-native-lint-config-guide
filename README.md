@@ -4,19 +4,19 @@
 
 ### ESlint
 
-Install with 
+1. Install with 
 
 ```
 npm install eslint --save-dev
 ```
 
-Setup the configuration with 
+2. Setup the configuration with 
 
 ```
 npx eslint --init
 ```
 
-Install the ESlint CLI
+3. Install the ESlint CLI
 
 ```
 npm i -g eslint
@@ -24,21 +24,19 @@ npm i -g eslint
 
 ### Prettier
 
-Install with
+1. Install with
 
 ```
 npm install --save-dev prettier eslint-config-prettier
 ```
 
-Add `'eslint-config-prettier'` to `extends` in `.eslintrc.yml`.
-
-Hookup with a pre-commit automatic format
+2. Hookup with a pre-commit automatic format
 
 ```
 yarn add pretty-quick husky --dev
 ```
 
-add 
+3. add 
 
 ```
 {
@@ -54,7 +52,7 @@ to `package.json`.
 
 ## Start with configured master
 
-Just do
+1. Just do
 
 ```
 npm install
@@ -66,7 +64,7 @@ After you pull the code from a configured master.
 
 ### With ESlint
 
-run
+1. run
 
 ```
 npx eslint yourfile1.tsx
@@ -78,7 +76,7 @@ eslint yourfile1.tsx
 
 to see the problems with current code style.
 
-run
+2. run
 
 ```
 npx eslint yourfile.tsx --fix
@@ -92,7 +90,7 @@ eslint yourfile.tsx --fix
 
 to automatically fix the code style.
 
-run
+3. run
 
 ```
 npm run lint
@@ -100,7 +98,7 @@ npm run lint
 
 to check code style for all files.
 
-run
+4. run
 
 ```
 npm run lint -- --fix
@@ -110,7 +108,7 @@ to fix the code style for all files
 
 ### With Prettier Hook 
 
-No action needed, just do 
+1. No action needed, just do 
 
 ```
 git commit
