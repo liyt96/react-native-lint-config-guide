@@ -68,7 +68,13 @@ After you pull the code from a configured master.
 
 run
 
-`npx eslint yourfile1.tsx` or `eslint yourfile1.tsx`
+```
+npx eslint yourfile1.tsx
+``` 
+or 
+```
+eslint yourfile1.tsx
+```
 
 to see the problems with current code style.
 
