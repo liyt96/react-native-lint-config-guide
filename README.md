@@ -38,7 +38,7 @@ run
 
 `npx eslint yourfile.tsx`
 
-to see the problem with current code style.
+to see the problems with current code style.
 
 run 
 
