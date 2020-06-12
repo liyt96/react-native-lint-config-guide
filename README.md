@@ -6,27 +6,37 @@
 
 Install with 
 
-`npm install eslint --save-dev`
+```
+npm install eslint --save-dev
+```
 
 Setup the configuration with 
 
-`npx eslint --init`
+```
+npx eslint --init
+```
 
 Install the ESlint CLI
 
-`npm i -g eslint`
+```
+npm i -g eslint
+```
 
 ### Prettier
 
 Install with
 
-`npm install --save-dev prettier eslint-config-prettier`
+```
+npm install --save-dev prettier eslint-config-prettier
+```
 
-Add `eslint-config-prettier` to `extends` in `.eslintrc.yml`.
+Add `'eslint-config-prettier'` to `extends` in `.eslintrc.yml`.
 
 Hookup with a pre-commit automatic format
 
-`yarn add pretty-quick husky --dev`
+```
+yarn add pretty-quick husky --dev
+```
 
 add 
 
@@ -46,7 +56,9 @@ to `package.json`.
 
 Just do
 
-`npm install`
+```
+npm install
+```
 
 After you pull the code from a configured master.
 
@@ -62,25 +74,42 @@ to see the problems with current code style.
 
 run
 
-`npx eslint yourfile.tsx --fix` or `eslint yourfile.tsx --fix` 
+```
+npx eslint yourfile.tsx --fix
+``` 
+
+or
+
+```
+eslint yourfile.tsx --fix
+``` 
 
 to automatically fix the code style.
 
 run
 
-`npm run lint`
+```
+npm run lint
+```
 
 to check code style for all files.
 
 run
 
-`npm run lint -- --fix`
+```npm run lint -- --fix
+```
 
 to fix the code style for all files
 
 ### With Prettier Hook 
 
-No action needed, just do `git commit` and it should automatically format the code style for you.
+No action needed, just do 
+
+```
+git commit
+```
+
+and it should automatically format the code style for you.
 
 
 
