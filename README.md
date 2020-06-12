@@ -12,6 +12,10 @@ Setup the configuration with
 
 `npx eslint --init`
 
+Install the ESlint CLI
+
+`npm i -g eslint`
+
 ### Prettier
 
 Install with
@@ -36,19 +40,31 @@ After you pull the code from a configured master.
 
 run
 
-`npx eslint yourfile.tsx`
+`npx eslint yourfile1.tsx` or `eslint yourfile1.tsx`
 
 to see the problems with current code style.
 
-run 
+run
 
-`npx eslint yourfile.tsx --fix`
+`npx eslint yourfile.tsx --fix` or `eslint yourfile.tsx --fix` 
 
 to automatically fix the code style.
 
+run
+
+`npm run lint`
+
+to check code style for all files.
+
+run
+
+`npm run lint -- --fix`
+
+to fix the code style for all files
+
 ### With Prettier Hook 
 
-No action needed, just do `git commit` and it will automatically format the code style for you.
+No action needed, just do `git commit` and it should automatically format the code style for you.
 
 
 
