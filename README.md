@@ -102,7 +102,8 @@ to check code style for all files.
 
 run
 
-```npm run lint -- --fix
+```
+npm run lint -- --fix
 ```
 
 to fix the code style for all files
