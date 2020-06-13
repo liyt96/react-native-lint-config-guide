@@ -98,7 +98,7 @@ npm run lint
 npm run lint -- --fix
 ```
 
-### With Prettier Hook 
+### With Prettier Pre-Commit Hook 
 
 1. No action needed, just do 
 
