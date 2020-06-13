@@ -100,13 +100,13 @@ npm run lint -- --fix
 
 ### With Prettier Pre-Commit Hook 
 
-1. No action needed, just do 
+1. No action needed, when you do 
 
 ```
 git commit
 ```
 
-and it should automatically format the code style for you.
+it should automatically format the code style for you.
 
 
 
