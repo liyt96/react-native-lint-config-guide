@@ -33,11 +33,7 @@ npm install --save-dev prettier eslint-config-prettier
 2. Hookup with a pre-commit automatic format
 
 ```
-npm install pretty-quick --save-dev
-```
-
-```
-npm install husky --save-dev
+npm install pretty-quick husky --save-dev
 ```
 
 3. add 
