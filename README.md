@@ -1,4 +1,4 @@
-# A React Native Linter Guide with ESlint and Prettier
+# A React Native Linter Guide with ESLint and Prettier
 
 ## Install from scratch
 
